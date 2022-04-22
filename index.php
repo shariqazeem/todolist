@@ -89,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <form action="/crud/index.php" method="POST">
+        <form action="/todolist/index.php" method="POST">
           <div class="modal-body">
             <input type="hidden" name="snoEdit" id="snoEdit">
             <div class="form-group">
@@ -151,7 +151,7 @@ if($update){
 
   <div class="container my-4">
     <h2>Add a Task</h2>
-    <form action="/CRUD/index.php" method="post">
+    <form action="/todolist/index.php" method="post">
       <div class="mb-3">
         <label for="title" class="form-label">Notes Title</label>
         <input type="text" class="form-control" id="title" name="title" aria-describedby="emailHelp">
